@@ -1,26 +1,27 @@
 # TierTube · Descargas para usuarios
 
-**Android y Windows x64 · a.0.6.4.beta**
+**a.0.6.4.beta para Android y Windows x64**
 
-## Android
+TierTube reúne búsqueda, reproducción, descargas autorizadas y listas locales. Elegí la descarga para tu dispositivo.
 
-Android 8.0 o posterior.
+| Plataforma | Página | Archivo |
+| --- | --- | --- |
+| Android 8.0 o posterior | [Descarga Android](https://lionelvidal300-tech.github.io/tiertube-actualizaciones-usuarios/) | [APK de usuario](https://lionelvidal300-tech.github.io/tiertube-actualizaciones-usuarios/TierTube-a.0.6.4.beta-usuario.apk) |
+| Windows x64 | [Descarga Windows](https://lionelvidal300-tech.github.io/tiertube-actualizaciones-usuarios/windows/) | [EXE portátil de usuario](https://lionelvidal300-tech.github.io/tiertube-actualizaciones-usuarios/windows/TierTube-a.0.6.4.beta-usuario.exe) |
 
-[Descargar desde la página oficial](https://lionelvidal300-tech.github.io/tiertube-actualizaciones-usuarios/) · [APK directo](https://lionelvidal300-tech.github.io/tiertube-actualizaciones-usuarios/TierTube-a.0.6.4.beta-usuario.apk)
+## Instalar y actualizar
 
-Si ya tenés la edición de usuario, instalá el APK encima de la versión anterior para conservar tus datos. Desde TierTube podés consultar nuevas versiones en **Ajustes → Actualizaciones → Buscar actualización**. La app te pide confirmar la descarga y Android te pide confirmar la instalación.
+- **Android.** Si ya tenés la edición de usuario, instalá el APK encima de la versión anterior para conservar los datos. Desde **Ajustes → Actualizaciones**, TierTube busca y verifica los APK nuevos. La descarga y la instalación requieren confirmación.
+- **Windows.** Cerrá la versión anterior y abrí el EXE nuevo. La biblioteca se conserva en el mismo perfil de Windows. Desde a.0.6.4.beta, **Ajustes → Actualizaciones** consulta el canal, pide confirmación y comprueba el manifiesto firmado y el SHA-256 antes de abrir una versión nueva.
 
-| Archivo | Uso |
+## Versiones de Android disponibles
+
+| Versión | Archivo |
 | --- | --- |
-| [Paquete a.0.6.4.beta](TierTube-a.0.6.4.beta-usuario.apk) | Versión de usuario vigente |
-| [user-android.json](user-android.json) | Manifiesto que consulta la app |
-| [SHA256SUMS](SHA256SUMS) | Huellas SHA-256 de los APK publicados |
-| [a.0.6.3.beta](TierTube-a.0.6.3.beta-usuario.apk) · [a.0.6.2.beta](TierTube-a.0.6.2.beta-usuario.apk) | Versiones anteriores |
+| a.0.6.4.beta | [APK vigente](TierTube-a.0.6.4.beta-usuario.apk) |
+| a.0.6.3.beta | [APK anterior](TierTube-a.0.6.3.beta-usuario.apk) |
+| a.0.6.2.beta | [Primer APK de este canal](TierTube-a.0.6.2.beta-usuario.apk) |
 
-## Windows x64
-
-[Descargar desde la página oficial](https://lionelvidal300-tech.github.io/tiertube-actualizaciones-usuarios/windows/) · [EXE directo](https://lionelvidal300-tech.github.io/tiertube-actualizaciones-usuarios/windows/TierTube-a.0.6.4.beta-usuario.exe) · [Canal firmado](windows.json)
-
-Cerrá la versión anterior y abrí este EXE portátil. TierTube conserva la biblioteca del perfil de Windows. Las próximas versiones se podrán buscar y confirmar en **Ajustes → Actualizaciones**.
+[Manifiesto Android](user-android.json) · [Manifiesto firmado de Windows](windows.json) · [SHA-256 de los archivos publicados](SHA256SUMS)
 
 Desarrollado por Creative Revveal.
