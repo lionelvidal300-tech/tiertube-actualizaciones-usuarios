@@ -29,3 +29,11 @@ En Inicio podés elegir el idioma manualmente. **Comentarios** se abre desde Ini
 - Linux · [a.0.6.5.beta](linux/TierTube-a.0.6.5.beta-usuario)
 
 Desarrollado por Creative Revveal.
+
+## Verificación de las actualizaciones de Android
+
+[GitHub Actions](../../actions/workflows/android-release-check.yml) verifica el APK del catálogo público cuando cambia el canal de Android en `main`. Comprueba el paquete, el código de versión, el certificado y el SHA-256 publicado. Se puede ejecutar manualmente desde Actions.
+
+Para activar VirusTotal, el titular debe crear el secreto de Actions `VT_API_KEY` en este repositorio. Actions consulta el informe por SHA-256. Si todavía no existe y la ejecución corresponde a un cambio en `main`, envía el APK de usuarios que ya se publicó. La ejecución manual consulta el informe disponible. Los APK de propietario permanecen en su canal privado.
+
+El informe y el borrador de apelación están en el artefacto `comprobacion-android` de la ejecución. Si Play Protect bloquea el APK en un teléfono, completá el modelo, la versión de Android y el aviso exacto en el borrador antes de usar el formulario oficial. El estado de VirusTotal y el análisis de Play Protect se consultan por separado. La verificación en `main` corre sobre archivos que GitHub ya sirve. Para una prueba previa a anunciar una actualización, ejecutá el flujo manual en la rama que contiene el APK y el catálogo del candidato y probá ese mismo archivo en un teléfono.
